@@ -83,7 +83,8 @@ function executeTestProcess() {
   try {
     console.log(`execute job ${__dirname}`);
     let _envVariables = updateEnvVariables('.env');
-    const buildProcess = exec(`cd ${__dirname} && cd ../../../../ && npm run test`, {
+    let _testCommand = process.env.TEST_COMMAND || "npm run test";
+    const buildProcess = exec(`cd ${__dirname} && cd ../../../../ && ${_testCommand}`, {
       maxBuffer: 1024 * 1024 * 1024
     });
     let _versionBuild = "-";

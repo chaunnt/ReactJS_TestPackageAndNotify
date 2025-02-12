@@ -1,6 +1,6 @@
 {
   "name": "@chaunnt/reactjs_testpackageandnotify",
-  "version": "1.0.32",
+  "version": "1.0.33",
   "description": "test nodejs using yarn and notify (Slack/Telegram) to user when building done",
   "main": "index.js",
   "scripts": {
