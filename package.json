@@ -1,15 +1,15 @@
 {
-  "name": "@chaunnt/reactjs_buildpackageandnotify",
+  "name": "@chaunnt/reactjs_testpackageandnotify",
   "version": "1.0.32",
-  "description": "build reactjs website using yarn and notify (Slack/Telegram) to user when building done",
+  "description": "test nodejs using yarn and notify (Slack/Telegram) to user when building done",
   "main": "index.js",
   "scripts": {
-    "test": "npm run reactjs_buildpackageandnotify",
+    "test": "npm run reactjs_testpackageandnotify",
     "start": "node src/index.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/chaunnt/ReactJS_BuildPackageAndNotify.git"
+    "url": "git+https://github.com/chaunnt/ReactJS_TestPackageAndNotify.git"
   },
   "keywords": [
     "ReactJS",
@@ -18,10 +18,12 @@
   "author": "ChauNNT",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/chaunnt/ReactJS_BuildPackageAndNotify/issues"
+    "url": "https://github.com/chaunnt/ReactJS_TestPackageAndNotify/issues"
   },
-  "bin": "src/index.js",
-  "homepage": "https://github.com/chaunnt/ReactJS_BuildPackageAndNotify#readme",
+  "bin": {
+    "reactjs_testpackageandnotify": "src/index.js"
+  },
+  "homepage": "https://github.com/chaunnt/ReactJS_TestPackageAndNotify#readme",
   "dependencies": {
     "child_process": "^1.0.2",
     "dotenv": "^16.0.3",

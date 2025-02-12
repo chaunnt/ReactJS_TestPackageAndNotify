@@ -5,7 +5,7 @@ Define these properties in `.env`
 #example: Project A
 PROJECT_NAME=<Name of this project which will be shown on message to Slack>
 #example: 202211230508 (YYYYMMDDHHmm)
-REACT_APP_BUILD_VERSION=<Build version>
+BUILD_VERSION=<Build version>
 #example: #build_notify
 SLACK_CHANNEL=<Channel Name of Slack>
 #example: https://.......
